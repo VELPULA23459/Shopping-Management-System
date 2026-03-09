@@ -67,3 +67,35 @@ Stores payment details.
 ---
 
 ## Sample Menu
+
+
+---
+
+## How to Run the Project
+
+1. Install **Java JDK**
+2. Install **MySQL**
+3. Create the database and tables using the SQL script
+4. Open the project in **Eclipse IDE**
+5. Add MySQL Connector JAR file
+6. Run `shopping.java`
+
+---
+
+## Learning Outcomes
+
+This project helped in understanding:
+
+- JDBC database connectivity
+- SQL operations (INSERT, SELECT)
+- PreparedStatement usage
+- SQL Joins
+- Java console applications
+
+---
+
+## Author
+
+**Velpula Himaja**  
+B.Tech ECE  
+Aspiring Java Full Stack Developer
