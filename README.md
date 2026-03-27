@@ -61,11 +61,38 @@ password = your_password
 
 ---
 
-##  Sample Data
+##  Sample Output
+===== SHOP MENU =====
+1. Add Customer
+2. View Products
+3. Place Order
+4. View Orders (Customer Wise)
+5. Make Payment
+6. Customer Full Details
+7. Exit
 
-* Laptop – ₹50000
-* Mobile – ₹20000
-* Headphones – ₹2000
+Database Connected Successfully
+
+--- View Products ---
+ID   | Name        | Price
+101  | Laptop      | ₹50000.00
+102  | Mobile      | ₹20000.00
+103  | Headphones  | ₹2000.00
+
+--- Place Order ---
+Enter Customer Name: Himaja
+Enter Email: himaja@gmail.com
+Enter Product ID: 101
+Enter Quantity: 2
+
+Order Placed Successfully!
+Total: ₹100000.0
+
+--- Payment ---
+Enter Order ID: 1
+Enter Payment Method: UPI
+
+Payment Successful! ₹100000.0
 
 ---
 
