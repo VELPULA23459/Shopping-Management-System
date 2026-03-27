@@ -1,15 +1,15 @@
-#  Shopping Management System (Java + JDBC + MySQL)
+# Shopping Management System (Java + JDBC + MySQL)
 
-##  Project Overview
+## Project Overview
 
 The Shopping Management System is a console-based Java application developed using **Core Java, JDBC, and MySQL**.
 This project allows users to manage customers, place orders, view order details, and process payments.
 
-It demonstrates how Java applications interact with databases using JDBC connectivity.
+It demonstrates how Java applications interact with databases using JDBC connectivity with proper validation and secure query handling.
 
 ---
 
-##  Technologies Used
+## Technologies Used
 
 * Java (Core Java)
 * JDBC (Java Database Connectivity)
@@ -18,18 +18,20 @@ It demonstrates how Java applications interact with databases using JDBC connect
 
 ---
 
-##  Features
+## Features
 
-*  Add new customers
-*  View products
-*  Place orders using customer name and email
-*  View orders (customer-wise)
-*  Make payments (prevents duplicate payments)
-*  View full customer details with order & payment status
+* Add new customers
+* View products
+* Place orders using customer name and email
+* View orders (customer-wise)
+* Make payments (prevents duplicate payments)
+* View full customer details with order & payment status
+* Input validation for better user experience
+* Secure database operations using PreparedStatement
 
 ---
 
-##  Database Structure
+## Database Structure
 
 The system uses the following tables:
 
@@ -40,29 +42,32 @@ The system uses the following tables:
 
 ---
 
-##  How to Run
+## How to Run
 
-###  Setup Database
+### Setup Database
 
 * Open MySQL
 * Run the SQL script from `Project.sql`
 
-###  Configure Database
+### Configure Database
 
 Update in Java code:
+
 url = jdbc:mysql://localhost:3306/ShoppingSystem
 username = root
 password = your_password
 
-###  Run Program
+### Run Program
 
 * Open in Eclipse
 * Run `ShoppingManagementSystem.java`
 
 ---
 
-##  Sample Output
+## Sample Output
+
 ===== SHOP MENU =====
+
 1. Add Customer
 2. View Products
 3. Place Order
@@ -81,7 +86,7 @@ ID   | Name        | Price
 
 --- Place Order ---
 Enter Customer Name: Himaja
-Enter Email: himaja@gmail.com
+Enter Email: [himaja@gmail.com](mailto:himaja@gmail.com)
 Enter Product ID: 101
 Enter Quantity: 2
 
@@ -96,10 +101,10 @@ Payment Successful! ₹100000.0
 
 ---
 
-##  Key Concepts
+## Key Concepts
 
 * JDBC Connectivity
-* PreparedStatement
+* PreparedStatement (for secure queries)
 * ResultSet Handling
 * Exception Handling
 * SQL Joins & Constraints
@@ -107,7 +112,7 @@ Payment Successful! ₹100000.0
 
 ---
 
-##  Future Enhancements
+## Future Enhancements
 
 * GUI using Java Swing
 * Admin login
@@ -116,6 +121,7 @@ Payment Successful! ₹100000.0
 
 ---
 
-##  Author
+## Author
 
-Velpula Himaja
+**Velpula Himaja**
+
